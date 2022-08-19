@@ -1,22 +1,14 @@
-const food = [
-    {
-        name: "Orange",
-        price: 2.25
-    },
-    {
-        name: "Peanut",
-        price: 0.25
-    },
-    {
-        name: "Banana",
-        price: 5.25
-        // banana prices are crazy right now
-    }
-]
-for (const products of food) {
-    let item = document.createElement("li");
-    const mainlist = document.getElementById("foods");
-    mainlist.appendChild(item);
-    item.textContent = products.name;
-    
+const str = "Sting";
+const nbr = 100;
+const bool = true;
+const a = null;
+const undef = "";
+const obj = {
+    username: "Carter",
+    password: "Harden",
 };
+const arr = ["name", 90, false];
+let def;
+console.log(str);
+// console logged to test
+
